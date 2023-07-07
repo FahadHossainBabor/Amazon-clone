@@ -123,3 +123,33 @@ span{
 .nav-cart{
     font-size: 0.8rem;
 }
+
+/* Panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-ops a{
+    display: inline;
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+
+    
+}
+
+.panel-ops{
+    width: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
