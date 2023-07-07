@@ -185,17 +185,45 @@ span{
 /* Shop Section */
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
 }
 
-.box{
-    height: 100px;
-    border: 2px solid red;
+/* .box{
+    
     width: 23.5%;
     height: 400px;
     background-color: #fff;
+    padding: 20px 0px 15px ;
+    margin: 15px;
     
     
 
+} */
+
+.box {
+    width: calc(25% - 30px); /* Adjusted width for four boxes in a row */
+    height: 400px;
+    background-color: #fff;
+    padding: 20px 0px 15px;
+    margin: 15px;
+  }
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content p{
+    color: #007185;
 }
